@@ -1,0 +1,17 @@
+#title {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  font-size: 70px;
+}
+
+.card-body {
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 1px solid rgb(0, 0, 0);
+  background-color: rgb(116, 158, 179);
+  color: black;
+
+}
