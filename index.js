@@ -143,10 +143,10 @@ function generatePage() {
       <div class="card-group">
       <div class="card">
         <div class="card-body">
-          <h2 class="card-title">${role.name}<br>MANAGER</h2>
+          <h2 class="card-title">${role.name}<br>MANAGER <i class="bi bi-person-badge-fill"></i></h2>
                     <h6 class="card-title">ID: ${role.id}</h6>
           <h6 class="card-title">Email: <a href="mailto: ${role.email}">${role.email}</a>
-                  <h6 class="card-title">Office Phone Number: ${role.phone}</h6>
+                  <h6 class="card-title">Office Number: ${role.phone}</h6>
         </div>
       </div>`
 
@@ -154,7 +154,7 @@ function generatePage() {
       blankPage += `   
           <div class="card">
           <div class="card-body">
-            <h2 class="card-title">${role.name}<br>INTERN</h2>
+            <h2 class="card-title">${role.name}<br>INTERN <i class="bi bi-mortarboard-fill"></i></h2>
             <h6 class="card-title">ID: ${role.id}</h6>
             <h6 class="card-title">Email: <a href="mailto: ${role.email}">${role.email}</a>
             <h6 class="card-title">School: ${role.school}</h6>
@@ -165,7 +165,7 @@ function generatePage() {
       blankPage += `
           <div class="card">
             <div class="card-body">
-              <h2 class="card-title">${role.name}<br>ENGINEER</h2>
+              <h2 class="card-title">${role.name}<br>ENGINEER <i class="bi bi-wrench-adjustable"></i></h2>
               <h6 class="card-title">ID: ${role.id}
               <h6 class="card-title">Email: <a href="mailto: ${role.email}">${role.email}</a>
               <h6 class="card-title">GitHub: <a href="https://github.com/${role.github}">${role.github}</a>
@@ -183,6 +183,7 @@ function generatePage() {
             href="https://getbootstrap.com/docs/5.2/assets/css/docs.css"rel="stylesheet"/>
           <title>My Teams Profile</title>
           <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
           <link rel="stylesheet" href="./style.css"></link>
         </head>
       <body>
